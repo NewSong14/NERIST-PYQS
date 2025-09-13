@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE Department - NERIST PYQs</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body data-dept="cse">
+  <!-- Navbar -->
+  <nav>
+    <h1>NERIST PYQs</h1>
+    <div class="navlinks">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Banner -->
+  <section id="dept-hero" style="
+    height: 350px;
+    margin-top: 80px;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+                url('../Images/cse.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  ">
+    <div>
+      <h1 style="font-size: 48px; margin-bottom: 10px;">Computer Science Engineering</h1>
+      <p style="font-size: 18px;">Previous Year Question Papers</p>
+    </div>
+  </section>
+
+  <!-- Year Selection Section -->
+  <section id="year-selection">
+    <h1>Select Year</h1>
+    <p>Choose the academic year to view available PYQs:</p>
+
+    <div class="row" id="year-grid">
+      <div class="year-box" data-year="2025">2025</div>
+      <div class="year-box" data-year="2024">2024</div>
+      <div class="year-box" data-year="2023">2023</div>
+      <div class="year-box" data-year="2022">2022</div>
+    </div>
+  </section>
+
+  <!-- Script -->
+  <script src="script-dept.js"></script>
+</body>
+</html>
